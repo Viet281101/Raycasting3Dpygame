@@ -14,6 +14,16 @@ class ObjectHandler():
         ##### sprite map:
         add_sprite(SpriteObject(game, path=path_candlebra))
         add_sprite(AnimatedSprite(game, path=path_green_light))
+        add_sprite(AnimatedSprite(game, path=path_green_light, pos=(1.5, 1.5)))
+        add_sprite(AnimatedSprite(game, path=path_green_light, pos=(1.5, 7.5)))
+        add_sprite(AnimatedSprite(game, path=path_green_light, pos=(5.5, 3.25)))
+        add_sprite(AnimatedSprite(game, path=path_green_light, pos=(5.5, 4.75)))
+        add_sprite(AnimatedSprite(game, path=path_green_light, pos=(7.5, 2.5)))
+        add_sprite(AnimatedSprite(game, path=path_green_light, pos=(7.5, 5.5)))
+        add_sprite(AnimatedSprite(game, path=path_green_light, pos=(14.5, 1.5)))
+        add_sprite(AnimatedSprite(game, path=path_red_light, pos=(14.5, 7.5)))
+        add_sprite(AnimatedSprite(game, path=path_red_light, pos=(12.5, 7.5)))
+        add_sprite(AnimatedSprite(game, path=path_red_light, pos=(9.5, 7.5)))
     
     def update(self) -> None:
         [sprite.update() for sprite in self.sprite_list]

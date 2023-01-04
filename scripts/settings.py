@@ -53,12 +53,14 @@ HALF_TEXTURE_SIZE : int = TEXTURE_SIZE // 2
 
 
 #################################### sources game path:
-path_candlebra : str = '../assets/images/sprites/static_sprites/candlebra.png'
-path_green_light : str = '../assets/images/sprites/animated_sprites/green_light/0.png'
-path_red_light : str = '../assets/images/sprites/animated_sprites/red_light/0.png'
-path_sky_bg : str = '../assets/images/textures/sky.png'
 path_textures : str = '../assets/images/textures/'
 path_static_sprite : str = '../assets/images/sprites/static_sprites/'
 path_animate_sprite : str = '../assets/images/sprites/animated_sprites/'
+path_candlebra : str = path_static_sprite + 'candlebra.png'
+path_green_light : str = path_animate_sprite + 'green_light/0.png'
+path_red_light : str = path_animate_sprite + 'red_light/0.png'
+path_sky_bg : str = path_textures + 'sky.png'
+path_shotgun : str = '../assets/images/sprites/weapon/shotgun/0.png'
+path_sound : str = '../assets/sound/'
 
 
